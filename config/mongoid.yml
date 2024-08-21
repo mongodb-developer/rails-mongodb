@@ -1,0 +1,6 @@
+development:
+  clients:
+    default:
+      uri: <% CONNECTION_STRING %>
+      options:
+        server_selection_timeout: 5
