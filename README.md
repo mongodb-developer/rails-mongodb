@@ -17,7 +17,7 @@ You will need a MongoDB cluster ready to go with some sample data. The easiest w
 Create a new Rails application using this template. You can change the name of the project by replacing `rails-mongodb` with the name of your project.
 
 ```
-rails new rails-mongodb -m https://raw.githubusercontent.com/joellord/rails-mongodb/main/template.rb --skip-active-record
+rails new rails-mongodb -m https://raw.githubusercontent.com/mongodb-developer/rails-mongodb/main/template.rb --skip-active-record
 ```
 
 When prompted, enter the connection string to your MongoDB cluster. You can find this connection string in the Atlas UI.

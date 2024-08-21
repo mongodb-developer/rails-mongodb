@@ -3,7 +3,7 @@
 # sample dataset provided on Atlas.
 
 if __FILE__ =~ %r{\Ahttps?://}
-  git_repo = "https://github.com/joellord/rails-mongodb"
+  git_repo = "https://github.com/mongodb-developer/rails-mongodb"
 
   require "tmpdir"
   source_paths.unshift(tempdir = Dir.mktmpdir("jumpstart-"))
