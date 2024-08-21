@@ -1,6 +1,6 @@
 development:
   clients:
     default:
-      uri: <% CONNECTION_STRING %>
+      uri: <% CONNECTION_STRING %>/sample_mflix
       options:
         server_selection_timeout: 5
