@@ -10,6 +10,8 @@ Mongoid.configure do
   # You can safely remove this line if you don't want to set a default value
   config.app_name = "devrel.template.rails"
 
+  config.connect_to 'sample_mflix'
+
   # It is recommended to use config/mongoid.yml for most Mongoid-related
   # configuration, whenever possible, but if you prefer, you can set
   # configuration values here, instead:
