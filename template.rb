@@ -24,6 +24,8 @@ end
 gem 'mongoid'
 gem 'tailwindcss-rails'
 
+bundle install
+
 rails_command "tailwindcss:install"
 
 generate(:scaffold, "movies", "title:string", "plot:text", "year:integer")
