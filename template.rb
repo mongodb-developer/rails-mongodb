@@ -24,7 +24,7 @@ end
 gem 'mongoid'
 gem 'tailwindcss-rails'
 
-run("bundle install")
+run "bundle install"
 
 rails_command "tailwindcss:install"
 
