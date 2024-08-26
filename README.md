@@ -2,7 +2,7 @@
 
 This simple template includes everything you need to run Rails with MongoDB. It includes examples for basic document fetches, as well as a form to add new entries.
 
-Find out more in the article in the [MongoDB Dev Center](https://mdb.link/rails).
+Find out more in the article in the [MongoDB Dev Center](https://www.mongodb.com/developer/products/mongodb/rails-application-template/).
 
 ## Requirements
 
